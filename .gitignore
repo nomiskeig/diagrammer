@@ -6,3 +6,4 @@ compile_commands.json
 Diagrammer
 libDiagrammerLib.a
 userlib.so
+*.svg
