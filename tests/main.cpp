@@ -12,7 +12,7 @@ int main() {
     Diagram *diagram = new Diagrammer::Diagram();
     Diagrammer::create_diagram(diagram);
     SVGPrinter* printer = new SVGPrinter();
-    diagram->accept_visitor(printer);
+    printer->print_diagram(diagram);
 
     
 };
